@@ -1,0 +1,96 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	
+	
+	<script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+<form action="#" name="opros" onsubmit="return(validate());">
+
+<table cellpadding="10" width="30%" bgcolor="7FFFD4" align="center" border="1|0"
+cellspacing="2">
+
+<tr>
+<td colspan=2>
+<center><font size=4><b>Анкета социологического исследования выпускников IT-специальностей</b></font></center>
+</td>
+</tr>
+
+<tr>
+<td>Укажите населенный пункт, в котором Вы проживаете в настоящее время?</td>
+<td><input type="text" name="reg"
+id="reg" size="30"></td>
+</tr>
+
+<tr>
+<td>Ваш пол</td>
+<td><input type="radio" name="pol" value="male" size="10">Мужской
+<input type="radio" name="pol" value="female" size="10">Женский</td>
+</tr>
+
+
+
+<tr>
+<td>Укажите Ваш текущий уровень образования</td>
+<td><select name="obraz">
+<option value="-1" selected>выберите...</option>
+<option value="obraz1">11 классов и ниже</option>
+<option value="obraz2">Среднее профессиональное</option>
+<option value="obraz3">Высшее</option>
+<option value="obraz4">Ученая степень</option>
+</select></td>
+</tr>
+
+<tr>
+<td>Работаете ли Вы в настоящее время?</td>
+<td><select name="rabota">
+<option value="-1" selected>выберите...</option>
+<option value="rabota1">Да работаю и не планирую менять место работы</option>
+<option value="rabota2">Да работаю, но хочу сменить текущее место работы</option>
+<option value="rabota3">Не работаю, но ищу в настоящее время работу</option>
+<option value="rabota4">Не работаю и не планирую искать работу</option>
+</select></td>
+</tr>
+
+<tr>
+<td>Оцените по шкале от 1 до 4, насколько сильно связано Ваше текущее место работы с полученной Вами IT-специальностью </td>
+<td><select name="sv">
+<option value="-1" selected>выберите...</option>
+<option value="sv1">1 - вообще не связано</option>
+<option value="sv2">2 - скорее, не связано</option>
+<option value="sv3">3 - скорее, связано</option>
+<option value="sv4">4 - сильно связано</option>
+</select></td>
+
+</tr>
+
+<tr>
+<td>Оцените Ваш текущий уровень дохода</td>
+<td><select Name="dohod">
+<option value="-1" selected>выберите...</option>
+<option value="dohod1">До 20 000 рублей</option>
+<option value="dohod2">От 20 001 рубля до 50 000 рублей</option>
+<option value="dohod3">От 50 001 рубля до 100 000 рублей</option>
+<option value="dohod4">Более 100 000 рублей</option>
+</select></td>
+</tr>
+
+<tr>
+<td>Контактный email</td>
+<td><input type="text" name="email" id="email" size="30"></td>
+</tr>
+
+<tr>
+<td>Ваш возраст</td>
+<td><input type="text" name="vozr" id="vozr" size="10"></td>
+</tr>
+<tr>
+<td><input type="reset"></td>
+<td colspan="2"><input type="submit" value="Отправить анкету" /></td>
+</tr>
+</table>
+</form>
+</body>
+<center><br>powered by gcaitlyn (c)
+</html>
